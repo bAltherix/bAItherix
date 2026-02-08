@@ -66,13 +66,14 @@ None provide a portable, deterministic representation of “who the agent is” 
 - End‑to‑end runtime test  
 
 All tests pass:
-
+```
 3 passed in 2.67s
-
+```
 
 This confirms the full cycle:
-
-**Session Snapshot → PaxCore → Reconstruction → Runtime**  
+```
+**Session Snapshot → PaxCore → Reconstruction → Runtime**
+```
 is stable, deterministic, and lossless.
 
 ---
@@ -133,14 +134,14 @@ pyproject.toml
 ---
 
 ## **Running Tests**
-
+```
 pytest -q
-
+```
 
 Expected output:
-
+```
 3 passed
-
+```
 
 ---
 
@@ -166,7 +167,7 @@ Expected output:
 
 ## **License**
 
-MIT License.
+Proprietary Software License - All Rights Reserved
 
 ---
 

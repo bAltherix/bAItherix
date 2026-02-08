@@ -78,6 +78,7 @@ is stable, deterministic, and lossless.
 ---
 
 ## **Architecture Overview**
+```
 
 +------------------+        SSPS Session Snapshot        +------------------+
 |     BECIA v4     |  -------------------------------->  |     PaxCore      |
@@ -87,7 +88,7 @@ is stable, deterministic, and lossless.
         |                                                           |
         +---------------- Reconstruction <---------------------------+
 
-
+```
 ### **BECIA responsibilities**
 - Build core session state  
 - Validate state  
